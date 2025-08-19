@@ -1,4 +1,4 @@
-// before we started to learn about javascript, we'll learn about javascript itsefl first
+// before we started to learn about javascript, we'll learn about javascript itself first
 
 // javascript is a programming language that can run in web browsers and on servers
 // it is a high-level, interpreted language that is dynamically typed and garbage-collected
@@ -17,6 +17,32 @@
 // javascript can also be used for mobile app development, game development, and desktop app development
 // it has a large and active community, with many libraries and frameworks available to help developers build applications more easily
 
+// javascript works together with HTML and CSS to build modern websites
+// HTML gives the structure, CSS gives the styling, and JavaScript gives the interactivity
+
+// javascript code is executed by engines inside browsers or on servers
+// examples of engines are: V8 (used by Chrome and Node.js), SpiderMonkey (used by Firefox), and JavaScriptCore (used by Safari)
+
+// javascript is standardized by ECMAScript (ES)
+// the ES6 version (released in 2015) introduced major features like let, const, arrow functions, template literals, classes, and modules
+// every year new features are added in ES7, ES8, and so on
+
+// javascript is single-threaded, meaning it executes one task at a time
+// it uses the event loop to handle asynchronous operations like timers, user input, and network requests without blocking the main thread
+
+// javascript supports "strict mode" using "use strict"; at the beginning of a script or function
+// strict mode makes your code safer, prevents some errors, and helps you write cleaner programs
+
+// javascript is dynamically typed: variable types are decided at runtime
+// it is also weakly typed: it allows implicit type conversion
+// for example, "5" + 2 results in "52" (string concatenation), while "5" - 2 results in 3 (number subtraction)
+
+// javascript has error handling using try...catch
+// proper error handling is important for making reliable and safe applications
+
+// javascript also supports modules, which allow you to split code into multiple files and import/export them
+// before ES6 modules, developers used CommonJS or AMD, but today ES modules are the standard
+
 // in this course, we will learn the basics of javascript, including variables, data types, operators, control structures, functions, and objects
 // we will also learn about more advanced topics such as asynchronous programming, promises, and modules
 // by the end of this course, you will have a solid understanding of javascript and be able to build your own web applications
@@ -32,7 +58,7 @@ let x = 5 + 3; // this is a statement that declares a variable x and assigns it 
 // in javascript, we can also write code in two main styles: imperative and declarative
 // imperative programming is a style that focuses on how to perform a task, using statements and control structures
 // declarative programming is a style that focuses on what the desired outcome is, using expressions and higher-level abstractions
-// for example, the following code uses an imperative style to calculate the sum of an array of
+// for example, the following code uses an imperative style to calculate the sum of an array:
 let numbers = [1, 2, 3, 4, 5];
 let sum = 0;
 for (let i = 0; i < numbers.length; i++) {
